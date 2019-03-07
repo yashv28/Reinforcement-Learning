@@ -97,4 +97,4 @@ The reward value for Acrobot-v1 lies in the range `[-162, 197]`. This value is r
 All results will be saved in Results folder.
 
 ## References
-Dr. Daniel Lee's ESE 650 Lecture Slides
+Daniel D. Lee's ESE 650 Lecture Slides

@@ -8,8 +8,8 @@ Reinforcement learning is an area of machine learning, concerned with how softwa
 **Maze**
 
 <img src="./images/maze.png" alt="drawing" width="100"/> 
-The first part of this project is to solve Maze problem and find optimal policy for each state and optimal Q-values (action values) for each state-action pair. “S” is the starting position and “G” is the goal position. There are three flags located at “F” and the goal of a learning agent is to collect the flags and escape the maze through the goal state as soon as possible. The total number of states are 112 and the total number of actions are 4 `(UP, DOWN, LEFT, RIGHT)`.
-
+The first part of this project is to solve Maze problem and find optimal policy for each state and optimal Q-values (action values) for each state-action pair. “S” is the starting position and “G” is the goal position. There are three flags located at “F” and the goal of a learning agent is to collect the flags and escape the maze through the goal state as soon as possible. The total number of states are 112 and the total number of actions are:
+`(UP, DOWN, LEFT, RIGHT)`
 
 **MountainCar-v0**
 
@@ -21,7 +21,7 @@ A car is on a one-dimensional track, positioned between two "mountains". The goa
 The acrobot system includes two joints and two links, where the joint between the two links is actuated. Initially, the links are hanging downwards, and the goal is to swing the end of the lower link up to a given height.  
 
 The state vector for Acrobot-v1 is:  
-`[cos(theta1), sin(theta1), cos(theta2), sin(theta2), theta_dot1, theta_dot2]`.
+`[cos(theta1), sin(theta1), cos(theta2), sin(theta2), theta_dot1, theta_dot2]`
 
 ## Challenge Description
 

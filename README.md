@@ -91,6 +91,7 @@ The reward value for Acrobot-v1 lies in the range `[-162, 197]`. This value is r
 
 * Run `VI.py` first to calculate optimal Q-values from value iteration and save to `Q_Values.npy`.
 * Then run `QL.py` to run Q-Learning algorithm and generate plots.
+
 ***NOTE - Run `VI.py` before `QL.py`***
 * Run `GYM.py` for solving MountainCar-v0 and Acrobot-v1 problems by Q-Learning and function approximation(RBF kernels).  
 All results will be saved in Results folder.

@@ -7,7 +7,7 @@ Reinforcement learning is an area of machine learning, concerned with how softwa
 
 **Maze**
 
-![](./images/maze.png) The first part of this project is to solve Maze problem and find optimal policy for each state and optimal Q-values (action values) for each state-action pair. “S” is the starting position and “G” is the goal position. There are three flags located at “F” and the goal of a learning agent is to collect the flags and escape the maze through the goal state as soon as possible. The total number of states are 112 and the total number of actions are 4 (UP, DOWN, LEFT and RIGHT).
+<img src="./images/maze.png" alt="drawing" width="220"/> The first part of this project is to solve Maze problem and find optimal policy for each state and optimal Q-values (action values) for each state-action pair. “S” is the starting position and “G” is the goal position. There are three flags located at “F” and the goal of a learning agent is to collect the flags and escape the maze through the goal state as soon as possible. The total number of states are 112 and the total number of actions are 4 `(UP, DOWN, LEFT, RIGHT)`.
 
 **MountainCar-v0**
 
@@ -50,8 +50,10 @@ For any finite Markov decision process (MDP), Q-learning eventually finds an opt
 
 | 1 | 2 | 3 | 4 |
 | ----------- | ----------- | ----------- | ----------- |
-<img src="./images/f1.png" alt="drawing" width="220"/> | <img src="./images/f2.png" alt="drawing" width="220"/>  | <img src="./images/f3.png" alt="drawing" width="220"/>  | <img src="./images/f4.png" alt="drawing" width="220"/>  
-| **5** | **6** | **7** | **8** |
+<img src="./images/f1.png" alt="drawing" width="220"/> | <img src="./images/f2.png" alt="drawing" width="220"/>  | <img src="./images/f3.png" alt="drawing" width="220"/>  | <img src="./images/f4.png" alt="drawing" width="220"/> 
+
+| 5 | 6 | 7 | 8 |
+| ----------- | ----------- | ----------- | ----------- |
 <img src="./images/f5.png" alt="drawing" width="220"/> | <img src="./images/f6.png" alt="drawing" width="220"/>  | <img src="./images/f7.png" alt="drawing" width="220"/>  | <img src="./images/f8.png" alt="drawing" width="220"/>  
 
 ### Maze Graphical Results
@@ -66,7 +68,7 @@ Scikit-Learn was used to convert a state space to a featurized representation. H
 
 <img src="./images/mountaincar-v0.png" width="400"> 
 
-The reward value for MountainCar-v0 lies in the range `[-97,124]`. This value is recorded after running the Q-Learning algorithm multiple times. The range is smoothed over 25 iterations.
+The reward value for MountainCar-v0 lies in the range `[-97, 124]`. This value is recorded after running the Q-Learning algorithm multiple times. The range is smoothed over 25 iterations.
 
 | Predicted values across state space | Iterations per episode |
 | ----------- | ----------- |
@@ -76,7 +78,7 @@ The reward value for MountainCar-v0 lies in the range `[-97,124]`. This value is
 
 Same as MountainCar, Scikit-Learn was used to convert a state space to a featurized representation. Here RBF kernels with different variances were used to cover different parts of the continuous state space.
 
-The reward value for Acrobot-v1 lies in the range [- 162 , 197 ]. This value is recorded after running the Q-Learning algorithm multiple times. The range is smoothed over 25 iterations.
+The reward value for Acrobot-v1 lies in the range `[-162, 197]`. This value is recorded after running the Q-Learning algorithm multiple times. The range is smoothed over 25 iterations.
 
 | Predicted values across state space | Iterations per episode |
 | ----------- | ----------- |

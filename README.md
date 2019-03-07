@@ -9,7 +9,8 @@ Reinforcement learning is an area of machine learning, concerned with how softwa
 
 <img src="./images/maze.png" alt="drawing" width="100"/> 
 The first part of this project is to solve Maze problem and find optimal policy for each state and optimal Q-values (action values) for each state-action pair. “S” is the starting position and “G” is the goal position. There are three flags located at “F” and the goal of a learning agent is to collect the flags and escape the maze through the goal state as soon as possible. The total number of states are 112 and the total number of actions are:
-`[UP, DOWN, LEFT, RIGHT]`
+
+```[UP, DOWN, LEFT, RIGHT]```
 
 **MountainCar-v0**
 
